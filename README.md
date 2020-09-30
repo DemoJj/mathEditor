@@ -36,10 +36,9 @@
 |config.defaultFontSize|输入时显示的字体大小|字符串|'18px'|否|
 |config.viewFontSize|输出的html显示的字体大小|字符串|'14px'|否|
 
-## 演示
+## 演示（参考test/simple.html）
 ![](https://i.ibb.co/j88LKDj/image.gif)
 
-
-## 嵌入演示
+## 嵌入演示（参考test/wangEditor/wangEditor.html）
 ![嵌入演示](https://i.ibb.co/7yDKf2b/image.gif)
 
