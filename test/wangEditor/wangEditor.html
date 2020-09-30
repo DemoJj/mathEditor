@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js"></script>
+    <link rel="stylesheet" href="../../dist/mathEdit.min.css">
+    <script src="../../dist/mathEdit.min.js"></script>
+    <script src="./wangEditor.js"></script>
+</head>
+<body>
+    <div id='wangEditor'></div>
+    <p>（mathEditor已嵌入wangEditor中！）</p>
+
+    <script>
+        var E = window.wangEditor
+        var wangEditorInstance = new E('#wangEditor')
+        wangEditorInstance.create();
+    </script>
+</body>
+</html>

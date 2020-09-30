@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,22 @@
     <link rel="stylesheet" href="../dist/mathEdit.min.css">
     <script src="../dist/mathEdit.min.js"></script>
 </head>
+
 <body>
     <div id="myEdit"></div>
     <button id="getVal">获取值</button>
     <script>
-        var mathEdit = new window.MathEdit({elId:'myEdit'})
-        document.getElementById('getVal').addEventListener('click',function(){
-            console.log( mathEdit.getValue())
+        var mathEdit = new window.MathEdit({
+            elId: 'myEdit',
+            config: {
+                defaultFontSize: '18px',
+                viewFontSize: '12px'
+            }
+        })
+        document.getElementById('getVal').addEventListener('click', function () {
+            console.log(mathEdit.getValue())
         })
     </script>
 </body>
+
 </html>
