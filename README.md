@@ -1,1 +1,1 @@
-![截图](https://i.ibb.co/j88LKDj/image.gif)
+![截图](/demo.gif)
