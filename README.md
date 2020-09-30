@@ -39,3 +39,7 @@
 ## 演示
 ![](https://i.ibb.co/j88LKDj/image.gif)
 
+
+## 嵌入演示
+![嵌入演示](https://i.ibb.co/7yDKf2b/image.gif)
+
