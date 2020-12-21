@@ -1,3 +1,5 @@
+import '../css/dialog.less'
+import './mathquill.min.js'
 // 遵循UMD规范
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :

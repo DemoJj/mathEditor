@@ -3,7 +3,6 @@
 1. 在html中引入dist文件内打包后的js和css：
 ````javascript
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js"></script> // 依赖jq
-    <link rel="stylesheet" href="../dist/mathEdit.min.css">
     <script src="../dist/mathEdit.min.js"></script>
 ````
 2. 在html中使用（可以参考test/simple.html）
@@ -37,8 +36,8 @@
 |config.viewFontSize|输出的html显示的字体大小|字符串|'14px'|否|
 
 ## 演示（参考test/simple.html）
-![](https://i.ibb.co/j88LKDj/image.gif)
+![](https://img-blog.csdnimg.cn/20201221141743788.gif#pic_center)
 
 ## 嵌入演示（参考test/wangEditor/wangEditor.html）
-![嵌入演示](https://i.ibb.co/7yDKf2b/image.gif)
+![嵌入演示](https://img-blog.csdnimg.cn/2020122114180335.gif#pic_center)
 
