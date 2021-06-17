@@ -1,12 +1,9 @@
 {
-  "name": "gulp-demo",
-  "version": "1.0.0",
-  "description": "",
+  "name": "mathEditor",
+  "version": "1.2.0",
+  "description": "基于jq的数学公式编辑器插件",
   "main": "index.js",
   "scripts": {
-    "lib": "gulp lib",
-    "auto": "gulp auto",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",

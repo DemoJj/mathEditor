@@ -12,6 +12,7 @@
 <body>
     <div id="myEdit"></div>
     <button id="getVal">获取值</button>
+    <button id="getLatex">获取Latex值</button>
     <script>
         var mathEdit = new window.MathEdit({
             elId: 'myEdit',
@@ -22,6 +23,9 @@
         })
         document.getElementById('getVal').addEventListener('click', function () {
             console.log(mathEdit.getValue())
+        })
+        document.getElementById('getLatex').addEventListener('click', function () {
+            console.log(mathEdit.getLatex())
         })
     </script>
 </body>

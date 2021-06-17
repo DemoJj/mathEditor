@@ -167,6 +167,9 @@ import './mathquill.min.js'
         var mathHTML = '<span class="mathquill-rendered-math" style="font-size:' + this.config.viewFontSize + ';" >' + $(getTagSign("#jme-math")).html() + '</span><span>&nbsp;</span>';
         return mathHTML
     }
+    MathEdit.prototype.getLatex = function() {
+        return $(getTagSign("#jme-math")).mathquill('latex')
+    }
     MathEdit.prototype.isEmpty = function () {
         return ($(getTagSign("#jme-math")).html()+"").replace(/(<[^>]*>|\s|&nbsp;)/ig,"").length < 1
     }
