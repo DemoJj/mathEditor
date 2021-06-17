@@ -9,6 +9,7 @@
 ````javascript
     <div id="myEdit"></div>
     <button id="getVal">获取值</button>
+    <button id="getLatex">获取Latex值</button>
     <script>
         var mathEdit = new window.MathEdit({
             elId: 'myEdit',
@@ -20,12 +21,16 @@
         document.getElementById('getVal').addEventListener('click',function(){
             console.log( mathEdit.getValue())
         })
+        document.getElementById('getLatex').addEventListener('click', function () {
+            console.log(mathEdit.getLatex())
+        })
     </script>
 ````
 ## API
 |名称|功能|使用|
 |--|--|--|
 |getValue|获取用户输入值（返回html）|mathEdit.getValue()|
+|getLatex|获取用户输入值（返回latex格式）|mathEdit.getLatex()|
 |isEmpty|判断输入框是否为空|mathEdit.isEmpty()|
 ## options配置
 |属性|描述|类型|默认值|必输|
