@@ -2707,7 +2707,10 @@ MathQuill.prototype = {
                         type: 'click',
                         fn: function fn() {
                             var htmlValue = mathEditor.getValue()
-                            editor.cmd.do('insertHTML', htmlValue);
+                            var newHtml = '<span>'+htmlValue+'<span></span></span>'
+                            var $elem = $(newHtml)
+                            editor.cmd.do('insertElem', $elem)
+                            editor.initSelection();
                             return true
                         }
                     }
@@ -2732,7 +2735,7 @@ MathQuill.prototype = {
 function Image(editor) {
     this.editor = editor;
     var imgMenuId = getRandom('w-e-img');
-    this.$elem = $('<div class="w-e-menu" id="' + imgMenuId + '"><i class="w-e-icon-image"></i></div>');
+    this.$elem = $('< class="w-e-menu" id="' + imgMenuId + '"><i class="w-e-icon-image"></i></span>');
     editor.imgMenuId = imgMenuId;
     this.type = 'panel';
 
