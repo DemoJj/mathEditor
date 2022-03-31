@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>mathEditor</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <script type="text/javascript" src="../../third-party/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="./mathEdit.min.js"></script>
+  <script type="text/javascript" src="../internal.js"></script>
+
+</head>
+
+<body>
+  <div id="myEdit" style="padding: 10px;"></div>
+  <script>
+    var mathEdit = new window.MathEdit({
+      elId: 'myEdit'
+    })
+    dialog.onok = function () {
+      var value = mathEdit.getValue()
+      value && editor.execCommand('insertHTML', value);
+    };
+  </script>
+</body>
+
+</html>

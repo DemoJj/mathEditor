@@ -43,6 +43,9 @@
 ## 演示（参考test/simple.html）
 ![](https://img-blog.csdnimg.cn/20201221141743788.gif#pic_center)
 
-## 嵌入演示（参考test/wangEditor/wangEditor.html）
+## 嵌入演示
+### wangEditor（参考test/wangEditor/wangEditor.html）
 ![嵌入演示](https://img-blog.csdnimg.cn/2020122114180335.gif#pic_center)
+### UEditor（参考test/UEditor/readme.md）
+![嵌入演示](https://img-blog.csdnimg.cn/ad8c0511d5b8483fbbcbe82c341ac290.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBARGVtb0p4,size_20,color_FFFFFF,t_70,g_se,x_16)
 
